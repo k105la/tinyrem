@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Pulsetracker" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#F4FBFF</item>
+        <item name="android:statusBarColor">#F4FBFF</item>
+    </style>
+
+    <style name="Theme.Pulsetracker.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+    <item name="android:windowBackground">@drawable/pulse_background</item>
+
+        <!-- Required -->
+        <item name="postSplashScreenTheme">@style/Theme.Pulsetracker</item>
+    </style>
+</resources>

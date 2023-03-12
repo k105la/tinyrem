@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PulseTracker</string>
+    <string name="home_route">Home</string>
+    <string name="alarm_route">Alarm</string>
+    <string name="sleep_route">Sleep</string>
+
+</resources>
